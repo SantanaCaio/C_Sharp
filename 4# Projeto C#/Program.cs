@@ -16,6 +16,9 @@ namespace _4__Projeto_C_
             double nota04 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Sua nota final é " + ((nota01 + nota02 + nota03 + nota04)/4));
+
+        
+
         }
     }
 }
