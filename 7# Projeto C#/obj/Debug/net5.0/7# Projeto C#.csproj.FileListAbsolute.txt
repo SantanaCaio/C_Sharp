@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.exe
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.deps.json
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.runtimeconfig.json
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.runtimeconfig.dev.json
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\ref\7# Projeto C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\bin\Debug\net5.0\7# Projeto C#.pdb
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.AssemblyInfo.cs
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\ref\7# Projeto C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.pdb
+C:\Users\dev\Documents\Caio Bezerra\C#\7# Projeto C#\obj\Debug\net5.0\7# Projeto C#.genruntimeconfig.cache
