@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.exe
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.deps.json
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.runtimeconfig.json
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.runtimeconfig.dev.json
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\ref\16 # projetos C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\bin\Debug\net5.0\16 # projetos C#.pdb
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.AssemblyInfo.cs
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\ref\16 # projetos C#.dll
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.pdb
+C:\Users\dev\Documents\Caio Bezerra\C_Sharp\16 # projetos C#\obj\Debug\net5.0\16 # projetos C#.genruntimeconfig.cache
