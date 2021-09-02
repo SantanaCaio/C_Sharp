@@ -7,7 +7,10 @@ namespace _18___Projetos_C_
         static void Main(string[] args)
         {
             double[] temperaturas = new double[12];
+            string[] meses = new string[12] {"jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"};
+            // int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
             double temMax = -999, temMin = 999;
+            string meseMax = "", meseMin = "";
 
             for (var i = 0; i < 12; i++)
             {
@@ -20,14 +23,16 @@ namespace _18___Projetos_C_
                 if (temperaturas[i] > temMax)
                 {
                     temMax = temperaturas[i];
+                    meseMax = meses[i];
                 }
                 if (temperaturas[i] < temMin)
                 {
                     temMin = temperaturas[i];
+                    meseMin = meses[i];
                 }
             }
 
-            Console.WriteLine($"A menor temperatura média do ano é {temMin}º, e a maior é {temMax}º");
+            Console.WriteLine($"A menor temperatura média do ano é {meseMin} - {temMin}º, e a maior é {meseMax} - {temMax}º");
             
         }
     }
