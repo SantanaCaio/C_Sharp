@@ -10,8 +10,11 @@ namespace _19___Projetos_C_
             string[] origens = new string[5];
             string[] destinos = new string[5];
             string[] datas = new string[5];
+
+            string nomePassageiro = "";
             string resposta = "";
             int contador = 0;
+
 
 
 
@@ -39,22 +42,29 @@ namespace _19___Projetos_C_
 
             do
             {
-                Console.WriteLine($"x----------------------------------x");
-                Console.WriteLine($"|    [1] - Cadastrar Passagens     |");
-                Console.WriteLine($"|    [2] - Listar Passagens        |");
-                Console.WriteLine($"|    [0] - Sair                    |");
-                Console.WriteLine($"x----------------------------------x");
+                Console.WriteLine($"x-------------------------------------x");
+                Console.WriteLine($"|    [1] - Cadastrar Passagens        |");
+                Console.WriteLine($"|    [2] - Listar Passagens           |");
+                Console.WriteLine($"|    [3] - Consulta Passageiro        |");
+                Console.WriteLine($"|    [0] - Sair                       |");
+                Console.WriteLine($"x-------------------------------------x");
                 opcao = Console.ReadLine();
 
                 switch (opcao)
                 {
                     case "1":
                         Console.WriteLine($"Cadastro de passagens");
-
-                        cadastroDePassagens();
+                        CadastroDePassagens();
                         break;
                     case "2":
                         Console.WriteLine($"Lista Passagens");
+                        ListarFuncao();
+                        break;
+                    case "3":
+                        Console.WriteLine($"Consulta passageiro");
+                        Console.WriteLine($"Insira o nome do passageiro : ");
+                        nomePassageiro = Console.ReadLine();
+                        ConsultaPassageiro(nomePassageiro);
                         break;
                     case "0":
                         Console.WriteLine($"Obrigado por usar a Tsulamoto Air Lines");
@@ -65,7 +75,6 @@ namespace _19___Projetos_C_
                         Console.WriteLine($"Opção invalida!");
                         break;
                 }
-
 
             } while (opcao != "0");
 
@@ -81,9 +90,9 @@ namespace _19___Projetos_C_
                 }
             }
 
-            void cadastroDePassagens()
+            void CadastroDePassagens()
             {
-                if (contador < 5)
+                if (contador < 2)
                 {
                     do
                     {
@@ -100,9 +109,38 @@ namespace _19___Projetos_C_
                         resposta = Console.ReadLine();
 
                         contador++;
-                    } while (resposta == "sim" && contador < 5);
+                    } while (resposta == "sim" && contador < 2);
                 }
                 Console.WriteLine("Limite de passagens cadastradas");
+            }
+
+            void ListarFuncao()
+            {
+                for (int i = 0; i < contador; i++)
+                {
+                    Console.WriteLine($"- - - - - {i + 1}ª passagens - - - - -");
+                    Console.WriteLine($"Nome : {nomes[i]}");
+                    Console.WriteLine($"Origem : {origens[i]}");
+                    Console.WriteLine($"Destino : {destinos[i]}");
+                    Console.WriteLine($"Data : {datas[i]}");
+                }
+            }
+
+            void ConsultaPassageiro(string nome)
+            {
+                for (int i = 0; i < contador; i++)
+                {
+                    if (nome == nomes[i])
+                    {
+                        Console.WriteLine($"Nome : {nomes[i]}");
+                        Console.WriteLine($"Origem : {origens[i]}");
+                        Console.WriteLine($"Destino : {destinos[i]}");
+                        Console.WriteLine($"Data : {datas[i]}");
+                        break;
+                    }
+                    contador++;
+                }
+
             }
             Console.Clear();
             Console.WriteLine($"fim do programa");
