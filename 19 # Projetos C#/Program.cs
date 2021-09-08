@@ -15,10 +15,6 @@ namespace _19___Projetos_C_
             string resposta = "";
             int contador = 0;
 
-
-
-
-
             Console.WriteLine("digite a senha");
             string senhaDigitada = Console.ReadLine();
             bool retornoDaFuncao = validarSenha(senhaDigitada);
